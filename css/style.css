@@ -25,7 +25,16 @@ nav {
     color: white;
 }
 
-a {
+a, i {
     text-decoration: none;
     color:white;
+    margin: 0 3px;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.marketplace {
+
 }
