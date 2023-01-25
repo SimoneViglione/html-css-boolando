@@ -34,6 +34,7 @@ a {
 
 main {
     padding-top: 100px;
+    margin: 0px 40px;
 }
 
 .marketplace {
@@ -44,7 +45,7 @@ main {
 }
 .marketplace img {
     height: 500px;
-    padding: 0px 10px;
+    padding-right: 20px;
     
 }
 
@@ -53,23 +54,49 @@ main {
     padding: 12px;
     position: absolute;
 }
-.marketplace img:hover {
-    display: none;
+.marketplace i:hover {
+    color: red;
 }
 
 .favourite1 {
     top: 5%;
-    left: 35%;
+    left: 480px;
 }
 .favourite2 {
     top: 5%;
-    left: 902px;
+    left: 845px;
 }
 .favourite3 {
     top: 5%;
-    right: 228px;
+    right: 190px;
 }
 
+.small-font {
+    font-size: 12px;
+}
+.red-font {
+    color: red;
+    font-weight: bold;
+}
+.crossed {
+    text-decoration: line-through;
+}
+
+.label {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+}
 .label-red {
-    
+    background-color: rgb(255, 0, 0);
+    width: 30px;
+    padding: 3px;
+    top: 460px;
+}
+.label-green {
+    background-color: green;
+    width: 65px;
+    padding: 3px;
+    top: 460px;
+    left: 250px;
 }
