@@ -21,11 +21,12 @@
     height: 30px;
 }
 
-nav {
+nav i{
     color: white;
+    margin: 0 3px;
 }
 
-a, i {
+a {
     text-decoration: none;
     color:white;
     margin: 0 3px;
@@ -39,7 +40,36 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 .marketplace img {
     height: 500px;
+    padding: 0px 10px;
+    
+}
+
+.marketplace i {
+    background-color: white;
+    padding: 12px;
+    position: absolute;
+}
+.marketplace img:hover {
+    display: none;
+}
+
+.favourite1 {
+    top: 5%;
+    left: 35%;
+}
+.favourite2 {
+    top: 5%;
+    left: 902px;
+}
+.favourite3 {
+    top: 5%;
+    right: 228px;
+}
+
+.label-red {
+    
 }
