@@ -26,7 +26,7 @@ nav i{
     margin: 0 3px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color:white;
     margin: 0 3px;
@@ -102,4 +102,28 @@ main {
     padding: 3px;
     top: 460px;
     left: 250px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 210px;
+    font-size: 10px;
+}
+
+.ft-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.ft-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
 }
