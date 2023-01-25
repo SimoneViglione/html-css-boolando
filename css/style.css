@@ -36,5 +36,10 @@ main {
 }
 
 .marketplace {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.marketplace img {
+    height: 500px;
 }
