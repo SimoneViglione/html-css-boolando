@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.header-fixed {
+    background-color: rgb(255, 105, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.header-fixed img {
+    height: 30px;
+}
+
+nav {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
