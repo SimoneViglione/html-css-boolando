@@ -94,14 +94,35 @@ main {
     background-color: rgb(255, 0, 0);
     width: 30px;
     padding: 3px;
-    top: 460px;
+    top: 540px;
 }
+.label-red2 {
+    background-color: rgb(255, 0, 0);
+    width: 30px;
+    padding: 3px;
+    top: 1110px;
+}
+
 .label-green {
     background-color: green;
     width: 65px;
     padding: 3px;
-    top: 460px;
+    top: 540px;
     left: 250px;
+}
+.label-green2 {
+    background-color: green;
+    width: 65px;
+    padding: 3px;
+    top: 1110px;
+    left: 250px;
+}
+.label-green3 {
+    background-color: green;
+    width: 65px;
+    padding: 3px;
+    top: 1110px;
+    right: 510px;
 }
 
 footer {
