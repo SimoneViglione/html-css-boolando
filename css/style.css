@@ -41,11 +41,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
+    position: static;
 }
+
 .marketplace img {
     height: 500px;
     padding-right: 20px;
+    
     
 }
 
@@ -59,16 +61,16 @@ main {
 }
 
 .favourite1 {
-    top: 5%;
-    left: 480px;
+    top: 15%;
+    left: 518px;
 }
 .favourite2 {
-    top: 5%;
-    left: 845px;
+    top: 15%;
+    left: 885px;
 }
 .favourite3 {
-    top: 5%;
-    right: 190px;
+    top: 15%;
+    right: 230px;
 }
 
 .small-font {
@@ -81,6 +83,7 @@ main {
 .crossed {
     text-decoration: line-through;
 }
+
 
 .label {
     font-size: 10px;
