@@ -43,7 +43,7 @@ main {
 
 .marketplace {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 .product {
